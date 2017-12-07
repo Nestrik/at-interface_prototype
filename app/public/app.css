@@ -1,0 +1,13 @@
+body {
+  background-color: darkgray;
+}
+
+.console {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  overflow: hidden;
+  overflow-y: scroll;
+}

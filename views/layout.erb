@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Инструмент управления автотестами</title>
+    <script type="text/javascript" src="/js"></script>
+    <link rel="stylesheet" src="/app.css">
+    <style>
+      body {
+        background-color: darkgray;
+        margin-left: 20%;
+        margin-right: 20%;
+      }
+
+      button {
+        margin: 10px;
+      }
+
+      .console {
+        margin-top: 20px;
+        height: 400px;
+        background-color: black;
+        color: white;
+        padding: 20px;
+        overflow: hidden;
+        overflow-y: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
